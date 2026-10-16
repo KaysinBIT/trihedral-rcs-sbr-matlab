@@ -1,0 +1,64 @@
+{
+  "status": "completed_PEC_SBR_high_frequency_approximation",
+  "sampling_method": "Uniform exit-aperture sampling with reverse-ray visibility and coherent Huygens integration",
+  "frequency_Hz": 3.4E+11,
+  "inner_leg_m": 0.0436,
+  "matlab_version": "23.2.0.2365128 (R2023b)",
+  "azimuth_limits_deg": [
+    1,
+    89
+  ],
+  "elevation_limits_deg": [
+    1,
+    89
+  ],
+  "map_angle_step_deg": 0.5,
+  "cut_angle_step_deg": 0.25,
+  "map_dual_polarization_angles": 31329,
+  "map_elapsed_seconds_this_run": 183.2122045,
+  "boresight_az_deg": 45,
+  "boresight_el_deg": 35.264389682754661,
+  "boresight_HH_dBsm": 12.893509946054326,
+  "boresight_VV_dBsm": 12.893509946054332,
+  "grid_peak_HH_dBsm": 12.901503549926268,
+  "grid_peak_az_deg": 45,
+  "grid_peak_el_deg": 36,
+  "HH_azimuth_3dB": {
+    "left_deg": 21.139359927308348,
+    "right_deg": 68.860640072691638,
+    "width_deg": 47.72128014538329,
+    "threshold_dBsm": 9.8935099460543263
+  },
+  "HH_elevation_3dB": {
+    "left_deg": 15.82196980162758,
+    "right_deg": 54.64759966311658,
+    "width_deg": 38.825629861489,
+    "threshold_dBsm": 9.8935099460543263
+  },
+  "ray_density_validation": {
+    "tested_angles": 97,
+    "max_map_error_above_peak_minus_3dB": 0.015639516566819722,
+    "max_map_error_above_peak_minus_10dB": 0.016390014460707647,
+    "max_map_error_above_peak_minus_20dB": 0.077857339372359391,
+    "max_tested_map_error_dB": 0.077857339372359391
+  },
+  "angular_domain": "Open first octant: s_x,s_y,s_z>0; exterior/back directions are not calculated",
+  "display_floor_dBsm": -25,
+  "is_full_wave": false,
+  "limitations": [
+    "Ideal zero-thickness PEC plates with exact orthogonality",
+    "No explicit UTD/PTD physical-edge diffraction, loss, roughness or assembly errors",
+    "Deep minima and near-grazing details are more sensitive to ray density",
+    "Ray-grid agreement does not bound error relative to a full-wave solution or measurement"
+  ],
+  "peak_validation": {
+    "candidate_angles": 12,
+    "fine_aperture_samples_per_angle": 2.359296E+6,
+    "max_change_dB": 0.011684211652195131,
+    "max_fine_HH_dBsm": 12.893025113847617,
+    "max_fine_VV_dBsm": 12.893003580493813
+  },
+  "map_aperture_samples_per_angle": 147456,
+  "cut_aperture_samples_per_angle": 589824,
+  "max_exit_branches_per_aperture_sample": 4
+}

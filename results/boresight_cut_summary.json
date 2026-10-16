@@ -1,0 +1,33 @@
+{
+  "forward_axis": [
+    0.57735026918962584,
+    0.57735026918962584,
+    0.57735026918962584
+  ],
+  "horizontal_axis": [
+    -0.70710678118654746,
+    0.70710678118654746,
+    0
+  ],
+  "vertical_axis": [
+    -0.40824829046386307,
+    -0.40824829046386307,
+    0.81649658092772615
+  ],
+  "direction_definition": "s=cos(beta)*cos(alpha)*forward + cos(beta)*sin(alpha)*horizontal + sin(beta)*vertical",
+  "HH_azimuth_3dB": {
+    "left_deg": -19.447835957314595,
+    "right_deg": 19.447835957314602,
+    "width_deg": 38.8956719146292,
+    "threshold_dBsm": 9.8935099460543263
+  },
+  "HH_elevation_3dB": {
+    "left_deg": -19.44241988112708,
+    "right_deg": 19.383209980361915,
+    "width_deg": 38.825629861488991,
+    "threshold_dBsm": 9.8935099460543263
+  },
+  "azimuth_cut_beta_deg": 0,
+  "elevation_cut_alpha_deg": 0,
+  "aperture_samples_per_angle": 589824
+}

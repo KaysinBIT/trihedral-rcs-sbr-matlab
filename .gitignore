@@ -1,0 +1,9 @@
+*.asv
+*.m~
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+results/*checkpoint*.mat
+results/*diagnostic*.mat
